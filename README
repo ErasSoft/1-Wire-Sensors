@@ -1,0 +1,36 @@
+# Hochschule Neubrandenburg
+# VMGG07 - Anwenderprojekte
+# Verfasser: Tino Schuldt, Mathias Krueger
+# Datum: 12.01.2016
+
+
+### Vor dem ersten Start ###
+Bevor das install.py ausgeführt werden kann, müssen alle Skripte Ausführungsrechte erhalten!
+Dazu wird das Terminal ausgeführt und in das Verzeichnis navigiert,
+anschließend werden alle Dateien mit Ausführungsrechen versehen.
+
+Beide benötigten Befehle sind nachfolgend dargestellt:
+cd /pfad/zum/Projektverzeichnis
+chmod +x . -R
+
+
+### Einmalige Grundinstallation ###
+Für die Installation von OWFS werden Root-Rechte (Administratorrechte) benötigt.
+Deswegen muss die install.py mit Root-Rechten gestartet werden!
+
+Dies geschieht mit dem Befehl sudo im Terminal:
+sudo ./install.py
+Oder durch das Wechseln zum Benutzer Root:
+su
+./install.py
+
+
+### Sensoren auslesen ###
+Für das Auslesen der Sensoren muss das Skript "read.py" mit Root-Rechten gestartet werden.
+
+Dies geschieht mit dem Befehl sudo im Terminal:
+sudo ./read.py
+Oder durch das Wechseln zum Benutzer Root:
+su
+./read.py
+
